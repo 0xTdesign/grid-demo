@@ -1,0 +1,17 @@
+.square {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 46, 46);
+}
+
+.square:hover {
+  -webkit-box-shadow: inset 4px 4px 15px 0px #000000,
+    34px 50px 0px 28px rgba(0, 0, 0, 0);
+  box-shadow: inset 4px 4px 15px 0px #000000,
+    34px 50px 0px 28px rgba(0, 0, 0, 0);
+}
